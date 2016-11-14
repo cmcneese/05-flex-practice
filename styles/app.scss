@@ -9,6 +9,10 @@ body {
   margin: 0;
 }
 
+img {
+  max-width: 100%;
+}
+
 .app {
   &__main {
     padding: 1rem;
@@ -72,8 +76,30 @@ body {
 .grid {
   display: flex;
   flex-wrap: wrap;
+  margin: 0 -1rem;
 
   &__item {
+    margin: 1rem;
+    flex-grow: 1;
+    flex-basis: calc( 100% / 4 - 1rem - 1rem);
+  }
+
+  @media (max-width: 500px) {
+    flex-direction: column;
+  }
+}
+
+.card {
+  border: 0.1rem black solid;
+  min-width: 10rem;
+
+  &__content {
+    padding: 1rem;
+  }
+
+  &-pic {
+    display: block;
+    width: 100%;
 
   }
 }
