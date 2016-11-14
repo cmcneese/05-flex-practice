@@ -103,3 +103,18 @@ img {
 
   }
 }
+
+.footer {
+  padding: 1rem;
+  background: black;
+  color: white;
+
+  a {
+    color: inherit;
+  }
+}
+
+.footer-nav {
+display: flex;
+flex-wrap: wrap;
+}
