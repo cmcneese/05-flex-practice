@@ -90,8 +90,8 @@ img {
 }
 
 .card {
-  border: 0.1rem black solid;
   min-width: 10rem;
+  box-shadow: 0.2rem 0.2rem 0.4rem rgba(#000, 0.4);
 
   &__content {
     padding: 1rem;
