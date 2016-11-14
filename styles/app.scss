@@ -19,6 +19,11 @@ img {
   }
 }
 
+ul {
+  list-style: none;
+  padding: 0;
+}
+
 .nav-bar {
   max-width: 100%;
   padding: 1rem;
@@ -117,4 +122,5 @@ img {
 .footer-nav {
 display: flex;
 flex-wrap: wrap;
+justify-content: space-between;
 }
